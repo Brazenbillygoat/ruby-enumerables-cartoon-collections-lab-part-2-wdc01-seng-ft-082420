@@ -38,7 +38,8 @@ def find_valid_calls(planeteer_calls)
   
   result = planeteer_calls.find { |call| valid_calls.include? call
   }
-  
+end
+
   return result
   
 end
